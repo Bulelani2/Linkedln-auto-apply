@@ -12,7 +12,7 @@ print(f"email: {email}")
 print(f"password: {password}")
 
 
-chrome_driver_path = Service("C:\Development\chromedriver.exe")
+chrome_driver_path = Service("Enter Your Chrome Driver Path Here")
 driver = webdriver.Chrome(service=chrome_driver_path)
 
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3304881558&f_AL=true&f_WT=2&geoId=102257491&keywords"
@@ -22,11 +22,11 @@ driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3304881558&f_AL=t
 # button.click()
 # time.sleep(5)
 # search = driver.find_element(By.NAME, "session_key")
-# search.send_keys("bulelanimagwebu2@gmail.com")
+# search.send_keys("Enter Your Email Here")
 # search.send_keys(Keys.ENTER)
 #
 # search = driver.find_element(By.NAME, "session_password")
-# search.send_keys("0651802180@bM")
+# search.send_keys("Enter Your Password Here")
 # search.send_keys(Keys.ENTER)
 #
 # time.sleep(5)
@@ -133,7 +133,7 @@ driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3304881558&f_AL=t
 #
 # phone = driver.find_element(By.CLASS_NAME, "fb-single-line-text__input")
 # if phone.text == "":
-#     phone.send_keys("079610940")
+#     phone.send_keys("Enter Your Phone Numbers")
 #
 # submit_button = driver.find_element(By.CSS_SELECTOR, "footer button")
 # submit_button.click()
